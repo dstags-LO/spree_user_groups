@@ -1,5 +1,5 @@
 class Spree::Admin::UserGroupsController < Spree::Admin::ResourceController
-  before_filter :load_data
+  before_action :load_data
 
 
   def pricing

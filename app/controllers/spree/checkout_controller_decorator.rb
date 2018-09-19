@@ -1,5 +1,5 @@
 Spree::CheckoutController.class_eval do
-  before_filter :verify_minimum_order
+  before_action :verify_minimum_order
 
   private
   def before_address
