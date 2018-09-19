@@ -1,4 +1,4 @@
-class UsergroupVariant < ActiveRecord::Migration
+class UsergroupVariant < ActiveRecord::Migration[4.2]
   def self.up
 	      create_table :spree_user_groups_variants do |t|
 		      t.integer :user_group_id

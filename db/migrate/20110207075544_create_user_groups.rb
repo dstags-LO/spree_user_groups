@@ -1,4 +1,4 @@
-class CreateUserGroups < ActiveRecord::Migration
+class CreateUserGroups < ActiveRecord::Migration[4.2]
   def self.up
     create_table :spree_user_groups do |t|
       t.string  :name
